@@ -67,7 +67,7 @@ def get_info(response):
 
 
 def save_mongodb(data):
-    mongo_url = '192.168.234.128'
+    mongo_url = '**********'  # mongodb地址
     mongo_db = 'qidian'
 
     client = pymongo.MongoClient(mongo_url)
